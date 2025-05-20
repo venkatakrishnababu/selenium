@@ -1,0 +1,4 @@
+john.doe@gmail.com
+jane_doe123@gmail.com
+johndoe@.gmail.com
+jane.doe@gmail..com

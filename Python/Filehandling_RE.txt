@@ -1,0 +1,99 @@
+ content = file.read()  # Reads entire file
+# line = file.readline()  # Reads a single line
+# lines = file.readlines()  # Reads all lines into a list
+#-----------------------
+# file = open("example.txt", "w")
+# file.write("Hello, world!")  # Overwrites file with new content
+# file.writelines(["Line 1\n", "Line 2\n"])  # Writes multiple lines
+
+
+"a" – Append mode (adds data without removing existing content)
+"w" -write mode
+"r"-read mode
+---------------------------------------------------------------------------------------------------------------------------
+
+^ → Matches the start of a string.
+
+$ → Matches the end of a string.
+
+. → Matches any character except a newline.
+
+* → Matches 0 or more occurrences.
+
++ → Matches 1 or more occurrences.
+
+? → Matches 0 or 1 occurrence.
+
+..........................................................................
+[abc] → Matches "a", "b", or "c".
+
+[0-9] → Matches any digit.
+
+\d → Matches any digit (same as [0-9]).
+
+\w → Matches any word character (letters, digits, underscore).
+
+\s → Matches any whitespace character.
+
+......................................................................................
+
+1. findall()
+Finds all occurrences of a pattern in a string and returns them as a list.
+2.search()
+Searches for the first occurrence of a pattern and returns a match object.
+match()
+3.Checks if the pattern matches the beginning of the string.
+4.sub()
+Replaces occurrences of a pattern with a new value.
+5.split()
+Splits a string based on a pattern.
+6.finditer()
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+example :-
+
+import re
+with open("source.txt","r") as E,open('target.txt',"w+") as F:
+    with open('target1.txt',"w+") as G:
+        e=E.readlines()
+        p ="(([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])[.]){3}([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])"
+        for i in e:
+            b=i.strip()
+            if re.fullmatch(p,b):
+                F.write(b+"\n")
+            else:
+                G.writelines(b+"\n")
+------------------------------------------------------------------------------------------------
+
+I will provide the topics in python , Give me quick reference guide for this 
+Operaters
+loops - for ,while
+break,continue,pass
+if , if-else,nested if 
+Error Handling with example 
+len(), type(), range(), input(), print(), sum(), min(), max(), sorted() - with examples 
+map(),filter(),zip(),enumarate()
+Data Types 
+1.String and it's Important methods 
+2.List and it's important methods 
+3.set and it's important methods 
+4.tuple and it's important methods 
+5. dictonary and it's important methods 
+functions, recursive function - with example 
+lambda function - with example 
+List Comprehensions
+dictonary Comprehensions
+regular expressions - important methods with one example 
+file handling - one example 
+Modules -OS , sys, paramikho 
+OOPS :- 
+1.inheritance (single,multiple,multilevel) ----> Defnetion with example 
+2.Data abstraction - Defnetion with example 
+3.Data encapsulation - Defnetion with example 
+4.polymorphism - Defnetion with example 
+5.Generator - Defnetion with example 
+6. iterator - Defnetion with example 
+

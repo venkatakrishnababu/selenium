@@ -1,0 +1,38 @@
+os – Interacts with the operating system
+
+import os
+print(os.getcwd()) ## Current working directory
+print(os.listdir())
+os.chdir(r"C:\Users\vkchunduru\AppData\Roaming\JetBrains\PyCharmCE2024.3\light-edit")# changes the particular directory
+print(os.getcwd())
+os.mkdir(r"C:\Users\vkchunduru\AppData\Roaming\JetBrains\PyCharmCE2024.3\light-edit\Python\Modules\Modulesss") ## create new directory
+os.rmdir(r"C:\Users\vkchunduru\AppData\Roaming\JetBrains\PyCharmCE2024.3\light-edit\Python\Modules\Modulesss") ## remove the directory
+print(os.getpid()) # to get the current working process ID
+print(os.getppid()) # to get the parent process ID
+
+-------------------------------------
+
+Sys :-
+The sys module in Python provides functions and variables that interact with the Python runtime environment.
+
+import sys
+print(sys.platform) ## return the name of the OS
+print(sys.argv)
+print(sys.path) ## List of directories that Python searches for modules
+print(sys.executable) ## Path of the Python interpreter
+
+
+----------------------------------------------
+
+import random
+print(random.randint(2,22)) # Returns a random integer between a and b
+print(random.uniform(2,22)) # Returns a random Floating number between a and b
+L=[1,12,14,21,34,45,85]
+print(random.choice(L)) ## Return the random number from the list
+print(L)
+random.shuffle(L) ## It will shuffle the list randomly
+print(L)
+
+------------------------
+Paramiko is a Python library used for SSH (Secure Shell) connections, allowing secure remote access to servers
+

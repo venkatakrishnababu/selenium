@@ -1,0 +1,18 @@
+
+QWERTYUIOPASDFGHJKLMNBVCZXRQ				1234567890(){}[]'':""glp'fg[plplml;klk
+
+
+
+Hi Hello good evening hope all doing good this is your jagadesh from core infra team @
+
+
+
+
+the quick brown fox jump over the lazy dog this is ridiculous i don't know what to do now can someone please try to help here hope everyone doing good since yesterday it was raining heavilh 
+
+
+
+
+for i in range(8):
+ if i==0:
+ print("hey i found the o in themsd9,
